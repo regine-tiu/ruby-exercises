@@ -3,9 +3,7 @@
 
 def multi_d_sum(arr)
  
-new_arr = arr.flatten
-
-new_arr.sum
+arr.flatten.sum
 
 end
 

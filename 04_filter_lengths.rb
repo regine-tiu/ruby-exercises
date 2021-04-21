@@ -5,9 +5,9 @@
 
 
 def filter_lengths(strings, length = 5)
-
-strings.select {|word| word.length >= length}
+   strings.select {|words| words.length >= length}
 end  
+
 p filter_lengths(["pear", "dragonfruit", "fig", "clementine"], 4)   # => ["pear", "dragonfruit", "clementine"]
 p filter_lengths(["pear", "dragonfruit", "fig", "clementine"])      # => ["dragonfruit", "clementine"]
 p filter_lengths(["cat", "dog", "capybara", "mouse"], 7)            # => ["capybara"]

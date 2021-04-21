@@ -2,13 +2,13 @@
 # the largest number. Solve this using the built-in inject.
 
 def max_inject(*arr)
- arr.inject do |acc, el| 
-  if el > acc
+ arr.inject do |acc, el|
+   if el > acc
     el
-  else
-    acc  
- end  
-end
+   else
+    acc
+   end  
+ end 
 end  
 
 

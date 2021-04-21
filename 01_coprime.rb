@@ -6,7 +6,7 @@
 
 
 def coprime?(num_1, num_2)
-  (2..num_1).none? {|divisor| num_1 % divisor == 0 && num_2 % divisor == 0 }
+    (2..num_1).none? {|divisor| num_1 % divisor == 0 && num_2 % divisor == 0}
 end
 
 
